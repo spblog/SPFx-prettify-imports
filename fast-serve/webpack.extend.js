@@ -7,15 +7,8 @@
 // you can add your project related webpack configuration here, it will be merged using webpack-merge module
 // i.e. plugins: [new webpack.Plugin()]
 
-const path = require("path");
 const webpackConfig = {
-  resolve: {
-    alias: {
-      "@src": path.resolve(__dirname, "..", "src"),
-      "@components": path.resolve(__dirname, "..", "src/shared/components/"),
-      "@hello-world-components": path.resolve(__dirname, "..", "src/webparts/helloWorld/components/"),
-    }
-  }
+
 }
 
 // for even more fine-grained control, you can apply custom webpack settings using below function
